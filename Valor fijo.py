@@ -11,6 +11,4 @@ umbral = 128  # Cambia este valor si querés
 _, binaria = cv2.threshold(gris, umbral, 255, cv2.THRESH_BINARY)
 
 # Mostrar resultado
-cv2.imshow("Blanco y negro", binaria)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+cv2.imwrite("imagen_final.jpg", binaria)

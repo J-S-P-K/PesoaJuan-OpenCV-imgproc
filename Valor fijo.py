@@ -1,7 +1,7 @@
 import cv2
 
 # Cargar imagen
-img = cv2.imread("img.jpg")
+img = cv2.imread("img.jpeg")
 
 # Convertir a escala de grises
 gris = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
